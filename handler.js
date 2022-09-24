@@ -871,7 +871,7 @@ export async function handler(chatUpdate) {
                 global.db.data.chats[m.chat] = {}
             if (chat) {
                 if (!('antiDelete' in chat)) chat.antiDelete = true
-                if (!('antiLink' in chat)) chat.antiLink = false
+                if (!('antiLink' in chat)) chat.antiLink = true
                 if (!('antiSticker' in chat)) chat.antiSticker = false
                 if (!('antiToxic' in chat)) chat.antiToxic = true
                 if (!('detect' in chat)) chat.detect = true
@@ -892,12 +892,12 @@ export async function handler(chatUpdate) {
                 if (!('useDocument' in chat)) chat.useDocument = false
                 if (!('viewonce' in chat)) chat.viewonce = false
                 if (!('viewOnce' in chat)) chat.viewOnce = false
-                if (!('welcome' in chat)) chat.welcome = false
+                if (!('welcome' in chat)) chat.welcome = true
                 if (!isNumber(chat.expired)) chat.expired = 0
             } else
                 global.db.data.chats[m.chat] = {
                     antiDelete: true,
-	                antiLink: false,
+	                antiLink: true,
 	                antiSticker: false,
 	                antiToxic: false,
 	                detect: true,
@@ -919,7 +919,7 @@ export async function handler(chatUpdate) {
 	                useDocument: false,
 	                viewOnce: false,
 	                viewonce: false,
-	                welcome: false,
+	                welcome: true,
                 }
             let settings = global.db.data.settings[this.user.jid]
             if (typeof settings !== 'object') global.db.data.settings[this.user.jid] = {}
@@ -1464,7 +1464,7 @@ ${nmsr} Perintah ini hanya untuk *Admin* grup !`,
         botAdmin: `*${htki} 𝐀𝐋𝐄𝐑𝐓 ${htka}*\n
 ${nmsr} Jadikan bot sebagai *Admin* untuk menggunakan perintah ini !`,
         unreg: `*${htki} 𝐀𝐋𝐄𝐑𝐓 ${htka}*\n
-${nmsr} Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Hinata.18* !`,
+${nmsr} Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Shrull.18* !`,
         nsfw: `*${htki} 𝐀𝐋𝐄𝐑𝐓 ${htka}*\n
 ${nmsr} NSFW tidak aktif, Silahkan hubungi Team Bot Discussion untuk mengaktifkan fitur ini !`,
         rpg: `*${htki} 𝐀𝐋𝐄𝐑𝐓 ${htka}*\n
