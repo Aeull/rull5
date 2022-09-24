@@ -6,16 +6,7 @@ import moment from 'moment-timezone'
 
 /*Oᴡɴᴇʀ number*/
 global.owner = [
-  ['6285172402754', '️One', true],
-  ['6285172402754', '️Two', true],
-  ['6285172402754', '️Three', true],
-  ['6285172402754', '️Four', true],
-  ['6285172402754', '️Five', true],
-  ['6285172402754', '️Six', true],
-  ['6285172402754', '️Seven', true],
-  ['6285172402754', '️Eight', true],
-  ['6285172402754', '️Nine', true],
-  ['6285172402754', '️Teen', true]
+  ['6285822347348', '️Shrull', true],
 ]
 global.mods = []
 global.prems = []
@@ -84,15 +75,15 @@ global.xckey = '7iyNa0qA'
 */
 
 /*Number*/
-global.nomorbot = '6285172398526'
-global.nomorown = '6285172402754'
-global.namebot = 'Takina-Md 🔥'
-global.nameown = '「 YuuTaa 」'
+global.nomorbot = '6283843192208'
+global.nomorown = '6285822347348'
+global.namebot = 'ArullBotz'
+global.nameown = 'Shrull'
 
 /*Watermark*/
-global.wm = '                「 Takina-Md 🔥  」'
-global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘YuuTaa˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
-global.wm3 = '⫹⫺ Takina-Md 🔥'
+global.wm = 'ArullBotz'
+global.wm2 = 'ArullBotz'
+global.wm3 = '⫹⫺ArullBotz'
 global.botdate = `⫹⫺ Date :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}`
 global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}`
 global.titlebot = `⫹⫺ Time Sever : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}\n⫹⫺ Date Server :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}`
@@ -387,17 +378,17 @@ global.hwaifu = ['https://i.pinimg.com/originals/ed/34/f8/ed34f88af161e6278993e1
 'https://i.pinimg.com/originals/80/4f/1a/804f1a05f9996c96a2d492b4854b7fd5.jpg']
 
 /*Link*/
-global.sig = 'https://www.instagram.com/invites/contact/?i=fj68j8k44hfc&utm_content=2g38low'
-global.sgh = 'https://www.github.com/zodress'
-global.sgc = 'https://chat.whatsapp.com/G4mO5FfkELyAoBHjjWikzB'
-global.sdc = 'https://www.discord.com/'
-global.snh = 'https://www.tiktok.com/@zodress.opbr?_t=8VvLy8JkjGj&_r=1'
-global.sfb = 'https://www.facebook.com/kahfiofc'
-global.syt = 'https://youtube.com/'
+global.sig = 'https://www.instagram.com/sahrulwara_____'
+global.sgh = 'https://www.github.com/Warikrr'
+global.sgc = 'https://chat.whatsapp.com/ItwCvXL02hg11U5qNaLSBe'
+global.sdc = 'https://chat.whatsapp.com/ItwCvXL02hg11U5qNaLSBe'
+global.snh = 'https://youtu.be/4cQwSCtZo1Q'
+global.sfb = 'https://youtu.be/KzU_d0ctB3o'
+global.syt = 'https://youtube.com/channel/UC1ikkqsPvtWuE_QonsET1yg'
 
 /*Nsfw*/
-global.optsnsfw = true
-global.premnsfw = true
+global.optsnsfw = false
+global.premnsfw = false
 
 /*Type*/
 global.dpptx = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
@@ -434,9 +425,9 @@ global.htjava = '⫹⫺'
 
 /*Watermark*/
 global.stickpack = '.'
-global.stickauth = `☂︎ Takina-Md 乂 YuuTaa\n⫹⫺ 𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩\nwa.me/${global.nomorbot}`
-global.packname = '☂︎ ᴄʀᴇᴀᴛᴇᴅ ʙʏ YuuTaa'
-global.author = 'Takina-Md 乂 YuuTaa'
+global.stickauth = `☂︎ ArullBotz\n\n\n\n\n\n\n\n\n\n\n⫹⫺ 𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩\nwa.me/${global.nomorbot}`
+global.packname = '☂︎ArullBotz'
+global.author = 'By Shrull'
 global.multiplier = 10
 
 /*Pesan*/
@@ -445,7 +436,7 @@ global.wait = '*ᴡᴀɪᴛ!*'
 global.render = '*ʀᴇɴᴅᴇʀ!*'
 global.webs = 'https://s.id/Cerdasin62'
 global.logo = 'https://i.pinimg.com/564x/f7/d2/e4/f7d2e48fd59a8c01cd396bfc70b0a2d1.jpg'
-global.gcwangsaf = 'https://chat.whatsapp.com/G4mO5FfkELyAoBHjjWikzB'
+global.gcwangsaf = 'https://chat.whatsapp.com/ItwCvXL02hg11U5qNaLSBe'
 
 /*Donasi*/
 global.saweria = '-'
@@ -457,9 +448,9 @@ global.gopay = 'HUB OWNER'
 global.pdana = 'HUB OWNER'
 global.povo = '-'
 global.pgopay = '-'
-global.ppulsa = '085172402754'
-global.ppulsa2 = '088970859360'
-global.psaweria = '-'
+global.ppulsa = '085822347348'
+global.ppulsa2 = '083844192208'
+global.psaweria = 'https://saweria.com/arullofc'
 
 /*Emoji*/
 global.rpg = {
