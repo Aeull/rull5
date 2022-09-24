@@ -210,9 +210,9 @@ await conn.sendButton(m.chat, `*Result:*
             ], m, { quoted: fakes })
 }
 
-if (command == 'tiktok3') {
+if (command == 'tiktok') {
 if (!text) throw `Contoh:\n${usedPrefix + command} https://vt.tiktok.com/ZSeJ7P56G`
-let f = await fetch(`https://betabotz-api.herokuapp.com/api/download/tiktok?url=${text}&apikey=BetaBotz`)
+let f = await fetch(`https://botcahx-rest-api.herokuapp.com/api/dowloader/tikok?url=${args[0]}`)
 let x = await f.json()
 await conn.sendButton(m.chat, `*Result:*
 `, wm, `${imgr + command}`, [
